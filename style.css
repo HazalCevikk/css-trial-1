@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   background-color: #bcd6eb;
+   font-family:'Roboto Mono', monospace;
+   font-size: 16px;
+}
+
+.nav-bar {
+    width: 20%;
+    height: 3240px;
+    background-color: #F0F4F7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+   
+}
+.baslık {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Corinthia', cursive;
+    font-size: xx-large;
+    padding-bottom: 15px;
+    
+    
+}
+p {color: #525050;
+    font-size: x-small;
+
+}
+.nav-text {
+    margin-left: 30px;
+    text-align: left;
+    color: #525050;
+    font-size: x-small;
+    margin-bottom: 50px;
+    
+}
+.nav-list li {
+    margin-left: 30px;
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px dashed rgb(163, 116, 163);
+    
+
+}
+li a {text-decoration: none;
+    color: #696969;
+    
+}
+
+li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.kaynak {
+    margin-top: 50px;
+    align-self: center;
+    font-size: xx-small;
+}
+
+.content {
+    background-color: #fff;
+    width: 75%;
+    height: 3240px;
+    position:absolute;
+    top: 35px;
+    right: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+.left-bar {
+    width: 70%;
+    height: 3240px;
+    background-color: #fff;
+    align-items: flex-start;
+    order: 0;
+    margin-bottom: 35px;
+    
+}
+.left-bar h1 {
+    margin-bottom: 30px;
+}
+.container{
+
+
+margin: 50px 20px 20px 20px;
+}
+
+.right-bar {
+    background-color: #fff;
+    
+    width: 30%;
+    height: 3240px;
+    align-self: flex-end;
+    order: 2;
+    
+}
+.box {
+    width:100%;
+    height: auto;
+    background-color: #fff;
+    border-top: 1px solid gainsboro;
+    margin-top: 45px;
+    padding-top: 20px;
+ 
+}
+
+.box img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.box p{
+    margin-bottom: 20px;
+}
+.box a{
+    border: 1px solid skyblue;
+    padding: 5px;
+    font-size: x-small;
+    text-decoration: none;
+    color: skyblue;
+}
+.box a:hover {
+    background-color: skyblue;
+    color: snow;
+    transition: 0.5s;
+
+}
+
+.contanier2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start
+    
+}
+.first #search {
+    width: 200px;
+    height: 30px;
+   border-color: skyblue;
+   border-radius: 8px;
+   margin-top: 170px;
+}
+
+.about {
+    text-align: center;
+    margin:50px 20px 50px 20px;
+}
+
+.about img {
+    border-radius: 50%;
+    width:170px;
+    align-self: center;
+    border: 3px solid lightskyblue;
+    
+
+}
+
+.about h1 {
+    font-size: large;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+}
+ .about p {
+     padding: 10px;
+     margin-top: 20px;
+ }
+.maname {
+    font-family:'Corinthia', cursive;
+    font-size: medium;
+    color: lightskyblue;
+}
+.social h1 {
+    font-size: large;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: left;
+    border-bottom: 1px solid gainsboro;
+}
+.social li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social i {
+    font-size: x-large;
+    margin-right: 30px;
+}
+
+.categories {
+    margin-top: 60px;
+}
+.categories h1 {
+    font-size: large;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.categories li {
+    list-style-type: none;
+   
+   
+}
+
+.categories li a {
+    font-size: x-small;
+}
+
+.archives h1 {
+    margin-top: 60px;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.archives li {
+    list-style-type: none;
+}
+.archives li a {
+    font-size: x-small;
+    margin-bottom: 15px;
+}
+
+
+
+
